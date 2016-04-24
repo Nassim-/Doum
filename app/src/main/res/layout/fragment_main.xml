@@ -6,11 +6,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="nassim.doum.MainActivity$PlaceholderFragment">
+    tools:context=".activities.MainActivity$PlaceholderFragment">
 
-    <TextView
-        android:id="@+id/section_label"
+    <Spinner
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/categorie"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?android:attr/activatedBackgroundIndicator"
+
+        android:id="@+id/listProduit"
+        android:layout_marginLeft="10dp"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/categorie" />
+
 
 </RelativeLayout>
