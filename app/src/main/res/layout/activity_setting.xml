@@ -4,13 +4,42 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification :"
+        android:textSize="22sp"
+        android:id="@+id/notif"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Notification : "
         android:id="@+id/switch1"
         android:checked="false"
-        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/notif"
+        android:layout_alignEnd="@+id/deconnect"
+        android:layout_toEndOf="@+id/notif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion"
+        android:textSize="22sp"
+        android:id="@+id/textView4"
+        android:layout_marginTop="104dp"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deconnect"
+        android:src="@drawable/ic_logout"
+        android:background="@color/transparent"
+        android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

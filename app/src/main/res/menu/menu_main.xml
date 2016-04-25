@@ -5,22 +5,22 @@
 
     <item
         android:id="@+id/action_commande"
-        android:icon="@android:drawable/ic_menu_save"
+        android:icon="@drawable/ic_purchas"
         android:title="Commande"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_chariot"
-        android:icon="@android:drawable/ic_input_add"
+        android:icon="@drawable/ic_cart"
         android:title="Chariot"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_compte"
-        android:icon="@android:drawable/ic_menu_myplaces"
+        android:icon="@drawable/ic_user"
         android:title="Connexion"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_setting"
-        android:icon="@android:drawable/ic_menu_edit"
+        android:icon="@drawable/ic_setting"
         android:title="Parametres"
         app:showAsAction="always" />
 </menu>

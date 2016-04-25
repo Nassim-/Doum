@@ -4,8 +4,8 @@
     <string name="section_format">Hello World from section: %1$d</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_email">Email ou login</string>
+    <string name="prompt_password">mot de passe</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -17,44 +17,35 @@
 
     <string-array name="categories_homme">
         <item>Tous</item>
-        <item>T-shirts et débardeurs</item>
-        <item>Chemises</item>
-        <item>Pulls à capuche et sweatshirt</item>s
-        <item>Cardigans et pulls</item>
-        <item>Blazers et costumes</item>
-        <item>Vestes et manteaux</item>
-        <item>Pantalons et chinos</item>
-        <item>Shorts</item>
-        <item>Sport</item>
-        <item>Accessoires</item>
-        <item>Chaussures</item>
+
+        <item>Pantalon</item>
+        <item>Ensemble</item>
+        <item>Chaussure</item>
+        <item>Tshirt</item>
+        <item>Veste</item>
+
     </string-array>
 
     <string-array name="categories_femme">
         <item>Tous</item>
-        <item>Vestes et manteaux</item>
-        <item>Gilets et pulls</item>
-        <item>Chemisiers et blouses</item>
-        <item>Robes</item>
-        <item>Pantalons</item>
-        <item>Accessoires</item>
-        <item>Chaussures</item>
-        <item>Combinaisons</item>
-        <item>Jupes</item>
-        <item> Blazers et gilets</item>
-        <item>Shorts</item>
-        <item>Maille</item>
+
+        <item>Pantalon</item>
+        <item>Ensemble</item>
+        <item>Chaussure</item>
+        <item>Tshirt</item>
+        <item>Veste</item>
+
     </string-array>
 
     <string-array name="categories_enfant">
         <item>Tous</item>
-        <item>Nouveau-né 0-9 mois</item>
-        <item>Bébé Fille 4-24 mois</item>
-        <item>Bébé Garçon 4-24 mois</item>
-        <item>Fille 1½ -10 ans</item>
-        <item>Garçon 1½ -10 ans</item>
-        <item>Fille 8-14+ ans</item>
-        <item>Garçon 8-14+ ans</item>
+
+        <item>Pantalon</item>
+        <item>Ensemble</item>
+        <item>Chaussure</item>
+        <item>Tshirt</item>
+        <item>Veste</item>
+
     </string-array>
 
 </resources>

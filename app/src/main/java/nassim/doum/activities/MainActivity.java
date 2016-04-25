@@ -73,11 +73,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return true;
         }else if (id == R.id.action_commande){
-            Intent intent = new Intent(this,ChariotActivity.class);
+            Intent intent = new Intent(this,CommandeActivity.class);
             startActivity(intent);
             return true;
         }else if (id == R.id.action_setting){
-            Intent intent = new Intent(this,ChariotActivity.class);
+            Intent intent = new Intent(this,SettingActivity.class);
             startActivity(intent);
             return true;
         }
