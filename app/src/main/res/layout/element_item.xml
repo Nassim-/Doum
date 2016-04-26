@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageProduitChariot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+
+    <TextView
+        android:id="@+id/nomProduitChariot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageProduitChariot"
+        android:textDirection="locale"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/prixProduitChariot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomProduitChariot"
+        android:layout_toRightOf="@+id/imageProduitChariot"
+        android:textDirection="locale"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/quantiteProduitChariot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prixProduitChariot"
+        android:layout_toRightOf="@+id/imageProduitChariot"
+        android:textDirection="locale"
+        android:textSize="11sp" />
+
+    <ImageButton
+        android:id="@+id/buttonChariot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_edit"/>
+
+    <ImageButton
+        android:id="@+id/supprimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/buttonChariot"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_remove"/>
+
+</RelativeLayout>
