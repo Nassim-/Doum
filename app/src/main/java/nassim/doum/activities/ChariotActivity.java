@@ -47,7 +47,6 @@ public class ChariotActivity extends AppCompatActivity {
         for (int i=0;i< AppData.chariot.getProduitsChariot().size();i++){
             produitList.add(AppData.chariot.getProduitsChariot().get(i));
         }
-
         return produitList;
     }
 
